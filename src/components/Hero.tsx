@@ -28,7 +28,7 @@ export default function HeroSection() {
       <div className="relative z-10 container mx-auto px-6 md:px-24 lg:px-28">
         <div className="flex flex-col justify-between min-h-[68vh] lg:min-h-0 lg:grid lg:grid-cols-[1.3fr_0.7fr] lg:gap-16 lg:items-center">
           {/* Coluna de texto */}
-          <div className="order-2 lg:order-1 max-w-xs md:max-w-md lg:max-w-lg ml-4 md:ml-10 lg:ml-16 mt-12 sm:mt-0">
+          <div className="order-2 lg:order-1 max-w-sm md:max-w-md lg:max-w-lg ml-4 md:ml-10 lg:ml-16 mt-12 sm:mt-0">
             {/* Logo */}
             <motion.div
               initial={{ opacity: 0, y: 16 }}
@@ -36,7 +36,7 @@ export default function HeroSection() {
               transition={{ duration: 0.6 }}
               className="mb-5 md:mb-8"
             >
-              <Image src="/logo.svg" alt="Active Cursos" width={76} height={70} className="invert opacity-90 w-12 h-auto md:w-[76px]" />
+              <Image src="/logo.svg" alt="Active Cursos" width={76} height={70} className="invert opacity-90 w-16 h-auto md:w-[76px]" />
             </motion.div>
 
             {/* H1 */}
@@ -44,7 +44,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 32 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-              className="font-serif text-white text-2xl sm:text-3xl md:text-4xl lg:text-[3.4rem] leading-[1.12] mb-4 md:mb-6"
+              className="font-serif text-white text-3xl sm:text-3xl md:text-4xl lg:text-[3.4rem] leading-[1.12] mb-4 md:mb-6"
             >
               <span className="block whitespace-nowrap">A maior referência</span>
               <span className="block whitespace-nowrap">
@@ -58,7 +58,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.3 }}
-              className="text-white/55 text-sm md:text-lg lg:text-xl leading-relaxed mb-6 md:mb-10 max-w-lg"
+              className="text-white/55 text-base md:text-lg lg:text-xl leading-relaxed mb-6 md:mb-10 max-w-lg"
             >
               Aprenda o método original com
               <br />
@@ -76,7 +76,7 @@ export default function HeroSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 label={CTA_LABEL}
-                className="px-3.5 py-2 text-xs md:px-7 md:py-3 md:text-sm"
+                className="px-4 py-2.5 text-sm md:px-7 md:py-3 md:text-sm"
               />
             </motion.div>
           </div>

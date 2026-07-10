@@ -62,7 +62,7 @@ export default function HeroSection() {
             >
               Aprenda o método original com
               <br />
-              quem tem 20 anos de história.
+              quem tem 24 anos de história.
             </motion.p>
 
             {/* CTA */}
@@ -109,7 +109,7 @@ export default function HeroSection() {
             >
               <div className="flex items-center justify-center md:justify-start gap-2 md:gap-5">
                 <div className="text-center md:text-left">
-                  <AnimatedNumber value={20} prefix="+" className="font-serif text-[#CF9D2F] text-base md:text-3xl leading-none" />
+                  <AnimatedNumber value={24} prefix="+" className="font-serif text-[#CF9D2F] text-base md:text-3xl leading-none" />
                   <p className="text-white/40 text-[8px] md:text-[11px] mt-1 md:mt-1.5 tracking-wide">anos de história</p>
                 </div>
                 <div className="w-px h-6 md:h-9 bg-white/10" />

@@ -23,7 +23,7 @@ const items = [
     number: "03",
     title: "Aplicação Clínica",
     description:
-      "Com a técnica consolidada, você ganha capacidade para atender qualquer corpo no estúdio, guiando com segurança desde alunos saudáveis até casos de reabilitação e dores crônicas.",
+      "Com o método consolidado, você adquire capacidade para atender qualquer cliente no estúdio, guiando com segurança desde alunos saudáveis até casos de reabilitação e dores crônicas.",
   },
   {
     number: "04",
@@ -72,7 +72,7 @@ export default function WhatYouLearnSection() {
           className="text-center mb-16 md:mb-24"
         >
           <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl text-black leading-tight">
-            O que você aprende na <span className="italic text-[#CF9D2F]">Active.</span>
+            O que você aprende na <span className="italic text-[#CF9D2F]">Active Pilates.</span>
           </h2>
         </motion.div>
 

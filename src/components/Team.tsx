@@ -9,7 +9,7 @@ const team = [
   {
     name: "Aline Mendonça",
     title: "Fisioterapeuta & Fundadora",
-    bio: "Professora da 3ª geração, certificada por Inelia Garcia e com pós-graduação em dor. Mais de 3.000 profissionais formados em duas décadas de carreira e intercâmbios de Pilates no Canadá desde 2010. Toda essa trajetória a serviço da sua formação.",
+    bio: "Professora da 3ª geração, certificada por Inelia Garcia e com pós-graduação em dor. Possui mais de 3.000 profissionais formados em duas décadas de carreira e intercâmbio de Pilates, através da ministração de cursos no Brasil e no Canadá desde 2010. Toda essa trajetória a serviço da sua formação.",
     image: "/aline.webp",
     objectPosition: "center top",
   },

@@ -23,7 +23,7 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "Active Cursos | Formação em Pilates Clássico",
   description:
-    "A maior referência em Pilates Clássico no Nordeste. Aprenda o método original com quem tem 20 anos de história.",
+    "A maior referência em Pilates Clássico no Nordeste. Aprenda o método original com quem tem 24 anos de história.",
   icons: {
     icon: "/logo.svg",
     apple: "/logo.svg",

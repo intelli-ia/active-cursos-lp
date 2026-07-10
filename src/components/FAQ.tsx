@@ -8,19 +8,19 @@ import { WA_LINK } from "@/lib/constants";
 const faqs = [
   {
     q: "Preciso ter formação na área da saúde para me inscrever?",
-    a: "Não. A formação da Active Cursos é aberta para profissionais da saúde e do movimento, e para quem quer iniciar uma carreira no Pilates Clássico. O que importa é a vontade de aprender o método original com profundidade.",
+    a: "A formação da Active Cursos é aberta para profissionais da saúde e do movimento, fisioterapeutas, profs de educação física e dança, enfermeiros e estudantes destas áreas. É um curso consolidado, para quem quer iniciar uma carreira no Pilates Clássico. O que importa é a vontade de aprender o método original com profundidade.",
   },
   {
-    q: "As aulas acontecem apenas em Salvador?",
-    a: "Não. A Active Cursos oferece formações em mais de 30 cidades no Brasil e em 7 países. Independente de onde você está, existe uma forma de se formar com a Active. Entre em contato com a nossa equipe e descubra a opção mais próxima de você.",
+    q: "As aulas acontecem apenas somente para quem mora em Salvador?",
+    a: "A Active Cursos oferece a formação presencial em Salvador e híbrida em mais de 30 cidades no Brasil e em 7 países. Independente de onde você está, existe uma forma de se formar com a Active Pilates. Entre em contato com a nossa equipe e descubra a opção mais próxima de você.",
   },
   {
-    q: "Será que a formação da Active vale o investimento?",
-    a: "Com certeza. São 20 anos de experiência, professoras da 3ª geração certificadas por Inelia Garcia, linhagem direta de Joseph Pilates e mais de 3.000 profissionais formados. Você está investindo em uma formação que realmente muda o nível da sua carreira.",
+    q: "Será que a formação da Active Pilates vale o investimento?",
+    a: "Com certeza. São 24 anos de experiência, professoras da 3ª geração certificadas por Inelia Garcia, linhagem direta de Joseph Pilates e mais de 3.000 profissionais formados. Você está investindo em uma formação que realmente muda o nível da sua carreira.",
   },
   {
     q: "Como faço para saber os valores?",
-    a: 'Basta clicar em qualquer botão de "Quero me formar na Active" nesta página. Você vai falar direto com a nossa equipe no WhatsApp, onde passaremos todas as informações sobre planos, horários disponíveis e como agendar sua primeira aula.',
+    a: 'Basta clicar em qualquer botão de "Quero me formar na Active Pilates" nesta página. Você vai falar direto com a nossa equipe no WhatsApp, onde passaremos todas as informações sobre planos, horários disponíveis e como agendar sua primeira aula.',
   },
 ];
 
@@ -122,7 +122,7 @@ export default function FAQSection() {
             className="bg-gradient-to-b from-[#CF9D2F]/10 to-white border border-[#CF9D2F]/20 rounded-2xl p-7 lg:sticky lg:top-28"
           >
             <p className="text-black text-base leading-relaxed mb-6">
-              Se ainda estiver com dúvidas, nossa equipe está a disposição.
+              Se ainda estiver com dúvidas, nossa equipe está à disposição.
             </p>
             <CTAButton
               href={WA_LINK}

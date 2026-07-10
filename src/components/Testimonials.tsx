@@ -21,11 +21,6 @@ const testimonials = [
       "Amei o curso! Foi uma experiência incrível, com muito aprendizado e conteúdo de qualidade. Professores excelentes, didáticos e muito preparados. Com certeza fez diferença na minha formação!",
   },
   {
-    name: "Jair Lazarini",
-    quote:
-      "Não sou um especialista em avaliações, entretanto, eu tenho certeza que a Active Pilates Brasil tem a melhor equipe de professores de Salvador!",
-  },
-  {
     name: "Marcela Amaral",
     quote:
       "Faço cursos na Active há muitos anos. Sempre com excelentes profissionais e cursos de altíssima qualidade.",
@@ -39,16 +34,6 @@ const testimonials = [
     name: "Ana Bartira",
     quote:
       "Já vou na minha segunda formação na Active Pilates e acho sensacional. Profissionalismo e comprometimento com o legado deixado por Joseph Pilates é o que me faz confiar no trabalho de olhos fechados. Foi um divisor de águas na minha profissão!",
-  },
-  {
-    name: "Aline Sá",
-    quote:
-      "Melhor studio, acolhedor. Melhor escola de Formação em Pilates Clássico. Estrutura e equipe impecáveis.",
-  },
-  {
-    name: "Alessandra Souza",
-    quote:
-      "Estúdio de pilates bem equipado, professores super competentes e ambiente humanizado. Super recomendo!",
   },
   {
     name: "Monique Idalan",
@@ -103,7 +88,7 @@ export default function TestimonialsSection() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl text-black leading-tight max-w-2xl mx-auto text-center">
-            Veja o que dizem os instrutores que se formaram com a Active.
+            Veja o que dizem os instrutores que se formaram com a Active
           </h2>
         </motion.div>
       </div>

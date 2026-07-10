@@ -9,7 +9,6 @@ const points = [
   "Aceitar qualquer aluno sem saber como adaptar o método para cada corpo",
   "Atender alunos com dores e limitações sem a especialização necessária",
   "Abrir um estúdio sem entender o lado empresarial da carreira",
-  "Ensinar por imitação, sem compreender a fisiologia por trás de cada movimento",
   "Subestimar o quanto a confiança técnica impacta na retenção dos seus alunos",
 ];
 

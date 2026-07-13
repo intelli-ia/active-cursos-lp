@@ -50,12 +50,12 @@ export default function Header() {
     >
       <div
         style={{ WebkitBackdropFilter: "blur(14px)", backdropFilter: "blur(14px)" }}
-        className={`flex items-center justify-between gap-6 rounded-full pl-5 pr-1.5 py-1.5 shadow-lg w-full max-w-xl transform-gpu border transition-colors duration-300 ${
+        className={`flex items-center justify-center sm:justify-between gap-6 rounded-full px-1.5 sm:pl-5 sm:pr-1.5 py-1.5 shadow-lg w-fit sm:w-full sm:max-w-xl transform-gpu border transition-colors duration-300 ${
           darkBg ? "bg-white/5 border-white/10" : "bg-black/5 border-black/10"
         }`}
       >
         {/* Wordmark */}
-        <Link href="/" className="flex items-center flex-shrink-0">
+        <Link href="/" className="hidden sm:flex items-center flex-shrink-0">
           <span
             className={`font-serif italic text-[15px] tracking-wide leading-none transition-colors duration-300 ${
               darkBg ? "text-white" : "text-black"

@@ -8,7 +8,7 @@ import { WA_LINK } from "@/lib/constants";
 const faqs = [
   {
     q: "Preciso ter formação na área da saúde para me inscrever?",
-    a: "A formação da Active Cursos é aberta para profissionais da saúde e do movimento, fisioterapeutas, profs de educação física e dança, enfermeiros e estudantes destas áreas. É um curso consolidado, para quem quer iniciar uma carreira no Pilates Clássico. O que importa é a vontade de aprender o método original com profundidade.",
+    a: "A formação da Active Cursos é aberta para profissionais da saúde e do movimento, fisioterapeutas, profissionais de educação física e dança, enfermeiros e estudantes destas áreas. É um curso consolidado, para quem quer iniciar uma carreira no Pilates Clássico. O que importa é a vontade de aprender o método original com profundidade.",
   },
   {
     q: "As aulas acontecem apenas somente para quem mora em Salvador?",

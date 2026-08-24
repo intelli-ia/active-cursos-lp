@@ -22,7 +22,7 @@ export default function WhatsAppButton() {
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: 100, scale: 0.8 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
-          className="fixed bottom-8 right-8 z-50 group"
+          className="hidden sm:block fixed bottom-8 right-8 z-50 group"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >

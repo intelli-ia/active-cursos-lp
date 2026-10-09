@@ -8,12 +8,12 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        gold: "bg-[#CF9D2F] text-black shadow-sm shadow-black/10 hover:bg-[#B8891A] hover:-translate-y-0.5 hover:shadow-[0_0_24px_rgba(207,157,47,0.4)] active:translate-y-0.5",
+        gold: "bg-gradient-to-b from-[#E8B94A] to-[#CF9D2F] text-black font-bold ring-1 ring-[#F5D27A]/60 shadow-[0_0_22px_rgba(207,157,47,0.55),0_6px_16px_rgba(0,0,0,0.35)] hover:from-[#F0C65C] hover:to-[#D9A834] hover:-translate-y-0.5 hover:shadow-[0_0_34px_rgba(232,185,74,0.75),0_8px_20px_rgba(0,0,0,0.4)] active:translate-y-0.5",
         outline: "border-2 border-[#CF9D2F] text-[#CF9D2F] hover:bg-[#CF9D2F] hover:text-black hover:-translate-y-0.5 active:translate-y-0.5",
         ghost: "text-[#CF9D2F] hover:bg-[#CF9D2F]/10 active:translate-y-0.5",
       },
       size: {
-        default: "px-5 py-2.5 text-sm md:px-7 md:py-3 md:text-sm",
+        default: "px-6 py-3 text-sm md:px-8 md:py-3.5 md:text-base",
         sm: "px-4 py-2 text-xs",
       },
     },

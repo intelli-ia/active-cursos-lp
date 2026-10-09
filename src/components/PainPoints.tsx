@@ -5,18 +5,18 @@ import { X } from "lucide-react";
 import Image from "next/image";
 
 const points = [
-  "Tentar construir autoridade sem ter uma linhagem reconhecida para apresentar",
-  "Aceitar qualquer aluno sem saber como adaptar o método para cada corpo",
-  "Atender alunos com dores e limitações sem a especialização necessária",
-  "Abrir um estúdio sem entender o lado empresarial da carreira",
-  "Subestimar o quanto a confiança técnica impacta na retenção dos seus alunos",
+  "Tenta construir autoridade sem linhagem reconhecida para apresentar",
+  "Aceitar qualquer aluno sem saber adaptar o método",
+  "Atende alunos com dores ou limitações sem especialidade",
+  "Abre um estúdio sem entender o lado empresarial",
+  "Subestima o quanto a confiança técnica impacta na permanência dos alunos",
 ];
 
 export default function PainPointsSection() {
   return (
-    <section className="relative w-full py-20 md:py-36 bg-[#0A0A0A] border-t border-white/5">
+    <section className="relative w-full py-12 md:py-24 bg-[#0A0A0A] border-t border-white/5">
       <div className="container mx-auto px-6 md:px-24 lg:px-28">
-        <div className="grid grid-cols-1 lg:grid-cols-[0.85fr_1.15fr] gap-12 lg:gap-16 items-start mb-16 md:mb-20">
+        <div className="grid grid-cols-1 lg:grid-cols-[0.85fr_1.15fr] gap-6 lg:gap-12 items-start mb-8 md:mb-10">
           {/* Coluna de imagem + headline */}
           <div className="lg:sticky lg:top-28">
             <motion.div
@@ -44,10 +44,7 @@ export default function PainPointsSection() {
               transition={{ duration: 0.8, delay: 0.15 }}
               className="font-serif text-2xl md:text-3xl lg:text-[2.4rem] text-white leading-tight mb-6"
             >
-              <span className="block whitespace-nowrap italic text-[#CF9D2F]">O Pilates cresceu no Brasil.</span>
-              <span className="block whitespace-nowrap">E com ele, a oportunidade</span>
-              <span className="block whitespace-nowrap">de se tornar um profissional</span>
-              <span className="block whitespace-nowrap">verdadeiramente diferenciado.</span>
+              <span className="italic text-[#CF9D2F]">O Pilates cresceu no Brasil</span> e com ele grandes oportunidades
             </motion.h2>
           </div>
 
@@ -58,9 +55,9 @@ export default function PainPointsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
-              className="text-white/50 text-base md:text-lg leading-relaxed mb-8"
+              className="text-white text-base md:text-lg leading-relaxed mb-8"
             >
-              Mas tenho uma notícia para dar. De nada adianta a oportunidade se:
+              Mas, nada adianta a oportunidade se você:
             </motion.p>
 
             <div className="flex flex-col gap-3">
@@ -76,7 +73,7 @@ export default function PainPointsSection() {
                   <span className="flex-shrink-0 w-5 h-5 rounded-full border border-[#CF9D2F]/50 flex items-center justify-center mt-0.5">
                     <X className="w-3 h-3 text-[#CF9D2F]" strokeWidth={2.5} />
                   </span>
-                  <p className="text-white/65 text-sm leading-relaxed">{point}</p>
+                  <p className="text-white text-sm md:text-base leading-relaxed">{point}</p>
                 </motion.div>
               ))}
             </div>
@@ -90,7 +87,6 @@ export default function PainPointsSection() {
           transition={{ duration: 0.7 }}
           className="max-w-2xl mx-auto text-center"
         >
-          <div className="w-10 h-px bg-[#CF9D2F] mx-auto mb-6" />
           <h3 className="font-serif italic text-xl md:text-2xl lg:text-3xl text-white leading-snug">
             É por isso que sua formação precisa estar à altura da carreira que você quer construir.
           </h3>
